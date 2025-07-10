@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Bubblegum+Sans&display=swap');
+
+body{
+    background-color: #f1ced4;
+    font-family: MV Boli, sans-serif;
+    
+}
+header{
+    background-color: #aa1945;
+    padding: 20px;
+    padding: 10px 16px;
+    font-size: 35px;
+}
+nav{
+    background-color: #f4b9b8;
+    font-family: rosemary, script;
+    color: rgb(255, 255, 255)  ;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px;
+    font-size: 20px;
+}
+nav a{
+    color: rgb(71, 0, 36);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition-duration: 0.3s;
+}
+nav a:hover{
+    color: rgb(255, 0, 128);
+}
+.tab{
+    font-family: 'cupcake factory', sans-serif;
+    text-align: center;
+    color: #fcc1d3;
+}
+.intro{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Showcard Gothic', sans-serif;
+    color: #391306;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.cardio{
+     line-height: 30px;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 20px;
+    color: rgb(62, 0, 62);
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffc5d0;
+    border-left: 4px solid #3a000b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+img{
+    width: 1250px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    border-left: 5px solid #3a000b;
+}
+.on{
+    font-size: 20px;
+    text-align: center;
+    color: #ffcad4;
+    font-family: 'Courier New', monospace;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #821d30;
+}
+
+footer a {
+    color: #f49bab;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #f49bab;
+    text-decoration: underline;
+}
+
